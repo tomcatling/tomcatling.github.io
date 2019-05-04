@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Tom's Blog - coding</title><link href="/" rel="alternate"></link><link href="/feeds/coding.atom.xml" rel="self"></link><id>/</id><updated>2017-11-19T12:30:00+00:00</updated><entry><title>Tunebook Modernisation with LaTeX and ABC</title><link href="/coding/tunebook-modernisation.html" rel="alternate"></link><published>2017-11-19T10:01:00+00:00</published><updated>2017-11-19T12:30:00+00:00</updated><author><name>Tom Catling</name></author><id>tag:None,2017-11-19:/coding/tunebook-modernisation.html</id><summary type="html">&lt;p&gt;I've been doing some calling and playing with the UCLU Ceilidh Band recently. Our tunebook is a much-edited PDF that has been handed down through generations of students. Some pages are scans of photocopies, annotated by hand and becoming fairly illegible. PDF doesn't understand music so it's impossible to edit notes or transpose things. I am also forever losing pages and entire copies because I normally print it out in a rush and don't have time to bind it. When I do have a copy it's normally mixed up and very difficult to find a certain tune...&lt;/p&gt;</summary><content type="html">&lt;p&gt;I've been doing some calling and playing with the UCLU Ceilidh Band recently. Our tunebook is a much-edited PDF that has been handed down through generations of students. Some pages are scans of photocopies, annotated by hand and becoming fairly illegible. PDF doesn't understand music so it's impossible to edit notes or transpose things. I am also forever losing pages and entire copies because I normally print it out in a rush and don't have time to bind it. When I do have a copy it's normally mixed up and very difficult to find a certain tune...&lt;/p&gt;
+&lt;p align="center"&gt;
+&lt;img src="/images/messy_tune.png" alt="Messy tune image" width="80%"/&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Enter ABC notation! This is a pretty old-school text format for music, and many of the tunes in our book are already written out in ABC on sites like thesession.org. ABC was introduced in the early 90s and has since become pretty sophisticated. It's designed to be human readable (some musicians can sight read ABC as fluently as sheet music) and is more than sufficient for transcribing tunes with chords and a couple of different parts.&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;          X: 1
+          T: Cooley&amp;#39;s
+          R: reel
+          ​M: 4/4
+          L: 1/8
+          K: Edor
+          |:GF  | &amp;quot;Em&amp;quot;EBBA B2 EB |&amp;quot;Em&amp;quot;B2 AB &amp;quot;G&amp;quot;dBAG |&amp;quot;D&amp;quot;FDAD &amp;quot;G&amp;quot;BD&amp;quot;D&amp;quot;AD|&amp;quot;D&amp;quot;FDAD &amp;quot;Bm7&amp;quot;dAFD |
+                  &amp;quot;Em&amp;quot;EBBA B2 EB |&amp;quot;Em&amp;quot;B2 AB &amp;quot;G&amp;quot;defg |&amp;quot;Bm&amp;quot;afec &amp;quot;Bm7&amp;quot;dBAF|&amp;quot;D&amp;quot;DEFD &amp;quot;Em&amp;quot;E2   :|
+           gf  |:&amp;quot;Em&amp;quot;eB ~B2 efge |&amp;quot;Em&amp;quot;eB ~B2 &amp;quot;G&amp;quot;gedB|&amp;quot;D&amp;quot;A2 FA DAFA     |&amp;quot;D&amp;quot;A2 FA &amp;quot;Bm&amp;quot;defg |
+                  &amp;quot;Em&amp;quot;eB ~B2 eBgB|&amp;quot;Em&amp;quot;eB ~B2 &amp;quot;G&amp;quot;defg|&amp;quot;Bm&amp;quot;afec &amp;quot;Bm7&amp;quot;dBAF|&amp;quot;D&amp;quot;DEFD &amp;quot;Em&amp;quot;E2   :|
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p align="center"&gt;
+&lt;img src="/images/cooleys.png" alt="Cooleys" width="80%"/&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Combining this with LaTeX and the CTAN ABC package to generate sheet music allows me to create a tunebook that can be rebuilt with a single command. Here it is on GitHub! (still a work in progress)&lt;/p&gt;
+&lt;p&gt;All tune sets are stored in ABC format in separate files to allow for easy editing, and it's even possible to transpose pieces easily with tools like mandolintab. The table of contents at the start is automatically regenerated, images inserted etc. LaTeX is great.&lt;/p&gt;
+&lt;p&gt;I found original high-resolution images where possible and even touched up the front cover. I intend to make five or so hardcover copies to keep with the band so we always have decent music to read from. &lt;/p&gt;
+&lt;p&gt;I had to do some experimenting with gluing a printed cover onto mounting board. Final copies will be printed double-sided, but the above images give you an idea of what it will look like. Very satisfying!&lt;/p&gt;</content></entry></feed>
