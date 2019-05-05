@@ -12,7 +12,7 @@ TIMEZONE = 'Europe/London'
 
 SITEURL = 'http://localhost:8000'
 
-THEME = '/Users/tomcatling/git/tomcatling.github.io/theme/bootstrap2'
+THEME = '/Users/tomcatling/git/tomcatling.github.io/theme/elegant'
 
 DEFAULT_LANG = 'en'
 

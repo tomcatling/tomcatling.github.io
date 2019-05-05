@@ -3,7 +3,7 @@ Date: 2017-11-19 10:01
 Modified: 2017-11-19 12:30
 Slug: tunebook-modernisation
 Authors: Tom Catling
-Summary: I've been doing some calling and playing with the UCLU Ceilidh Band recently. Our tunebook is a much-edited PDF that has been handed down through generations of students. Some pages are scans of photocopies, annotated by hand and becoming fairly illegible. PDF doesn't understand music so it's impossible to edit notes or transpose things. I am also forever losing pages and entire copies because I normally print it out in a rush and don't have time to bind it. When I do have a copy it's normally mixed up and very difficult to find a certain tune...
+Tags: music, .abc, automation
 template:article
 gallery:tunebook
 

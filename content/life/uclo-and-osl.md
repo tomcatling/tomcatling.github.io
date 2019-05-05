@@ -3,8 +3,7 @@ Date: 2017-04-10
 Modified: 2017-04-10
 Slug: uclo-and-osl
 Authors: Tom Catling
-Summary: I've started working as a technician at University College London Observatory and in the Optical Science Lab (where I did my PhD, also in UCL). <br/><br/> It's pretty varied and interesting. We're assembling the corrector optics for DESI at the moment in OSL. This is a big job; there are 6 lenses which are each about 1m in diameter, all of which have to be aligned accurately to within ~10 microns. There is a lot of fiddly manual work involved in this, as well as a lot of thought about measurements, sources of error and co-ordinate systems. 
-template:article
+Tags: update, allotment
 gallery:uclo-and-osl
 
 I've started working as a technician at University College London Observatory and in the Optical Science Lab (where I did my PhD, also in UCL).

@@ -3,8 +3,7 @@ Date: 2017-08-21 10:01
 Modified: 2017-08-21 12:30
 Slug: kniterate-post-kickstarter
 Authors: Tom Catling
-Summary: Well, I have been back in China again making knitting machines with Kniterate. <br/><br/> We concluded our Kickstarter campaign in May and raised a whopping $636k! We have since redesigned the electronics of the machine to be a bit more industrial and I took a few weeks away from work in the UK in August to go over to the factory near Shanghai and integrate the new boards into the prototype. I have also rewritten the firmware to be a lot faster and more modular/manageable. I learned a lot about RS485, acceleration profiles, interrupts and various board-board communication standards during this process!
-template:article
+Tags: kniterate, china, kickstarter, update
 gallery:kniterate-post-kickstarter
 
 Well, I have been back in China again making knitting machines with Kniterate.
