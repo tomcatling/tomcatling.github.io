@@ -16,16 +16,16 @@ I've been doing some calling and playing with the UCLU Ceilidh Band recently. Ou
 Enter ABC notation! This is a pretty old-school text format for music, and many of the tunes in our book are already written out in ABC on sites like thesession.org. ABC was introduced in the early 90s and has since become pretty sophisticated. It's designed to be human readable (some musicians can sight read ABC as fluently as sheet music) and is more than sufficient for transcribing tunes with chords and a couple of different parts.
 
 ```
-          X: 1
-          T: Cooley's
-          R: reel
-          ​M: 4/4
-          L: 1/8
-          K: Edor
-          |:GF  | "Em"EBBA B2 EB |"Em"B2 AB "G"dBAG |"D"FDAD "G"BD"D"AD|"D"FDAD "Bm7"dAFD |
-                  "Em"EBBA B2 EB |"Em"B2 AB "G"defg |"Bm"afec "Bm7"dBAF|"D"DEFD "Em"E2   :|
-           gf  |:"Em"eB ~B2 efge |"Em"eB ~B2 "G"gedB|"D"A2 FA DAFA     |"D"A2 FA "Bm"defg |
-                  "Em"eB ~B2 eBgB|"Em"eB ~B2 "G"defg|"Bm"afec "Bm7"dBAF|"D"DEFD "Em"E2   :|
+X: 1
+T: Cooley's
+R: reel
+​M: 4/4
+L: 1/8
+K: Edor
+|:GF | "Em"EBBA B2 EB |"Em"B2 AB "G"dBAG |"D"FDAD "G"BD"D"AD|"D"FDAD "Bm7"dAFD |
+       "Em"EBBA B2 EB |"Em"B2 AB "G"defg |"Bm"afec "Bm7"dBAF|"D"DEFD "Em"E2   :|
+ gf |:"Em"eB ~B2 efge |"Em"eB ~B2 "G"gedB|"D"A2 FA DAFA     |"D"A2 FA "Bm"defg |
+       "Em"eB ~B2 eBgB|"Em"eB ~B2 "G"defg|"Bm"afec "Bm7"dBAF|"D"DEFD "Em"E2   :|
 ```
 
 <p align="center">
