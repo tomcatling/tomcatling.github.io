@@ -55,12 +55,10 @@
             {{ comments(article) }}
             <div class="col-lg-4 col-md-12 mb-4">
                 {% for image in article.galleryimages %}
-                <a class="{{ article.album }} cboxElement" href="{{ STATIC }}/images/gallery/{{ article.album }}/{{ image }}"><img src="{{ STATIC }}/images/gallery/{{ article.album }}/{{ image }}" class="img-fluid mb-4" alt="" width="18%%"></a>
+                <a href="{{ STATIC }}/images/gallery/{{ article.album }}/{{ image }}"  data-featherlight="image" class="mb-4">
+                    <img src="{{ STATIC }}/images/gallery/{{ article.album }}/{{ image }}" class="img-fluid rounded" width="18%">
+                </a>
                 {% endfor %}
-                <script>
-                $(".img-fluid").addClass("wow fadeIn z-depth-1-half");
-                new WOW().init();
-                </script>
             </div>
             <hr/>
             {% include '_includes/related_posts.html' with context %}
